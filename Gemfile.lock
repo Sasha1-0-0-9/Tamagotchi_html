@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/Sasha1-0-0-9/content_to_html
-  revision: aafb03c996c92062b11b5170dc8293e4d6b31832
+  revision: 283d70e4ffaa747323456c5e1ccae5d1c3987fe0
   branch: master
   specs:
-    content_to_html (0.0.8)
+    content_to_html (0.1.1)
 
 GEM
   specs:
@@ -12,7 +12,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  content_to_html (~> 0.0.8)!
+  content_to_html (~> 0.1.1)!
 
 BUNDLED WITH
    2.1.4
