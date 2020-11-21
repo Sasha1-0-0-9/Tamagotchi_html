@@ -290,47 +290,38 @@ while x != "0"
 	when "1"
 		pet.go_to_sleep()
 		puts pet.show_stats
-		#html.html_for_pet(name, pet.return_array, help)
 		x = gets.chomp.to_s
 	when "2"
 		pet.feed()
 		puts pet.show_stats()
-		#html.html_for_pet(name, pet.return_array, help)
 		x = gets.chomp.to_s
 	when "3"
 		pet.walk()
 		puts pet.show_stats()
-		#html.html_for_pet(name, pet.return_array, help)
 		x = gets.chomp.to_s
 	when "4"
 		pet.take_a_shower()
 		puts pet.show_stats()
-		#html.html_for_pet(name, pet.return_array, help)
 		x = gets.chomp.to_s
 	when "5"
 		pet.heal()
 		puts pet.show_stats()
-		#html.html_for_pet(name, pet.return_array, help)
 		x = gets.chomp.to_s
 	when "6"
 		pet.drink_an_energy_drink()
 		puts pet.show_stats()
-		#html.html_for_pet(name, pet.return_array, help)
 		x = gets.chomp.to_s
 	when "7"
 		pet.play_boardgames()
 		puts pet.show_stats()
-		#html.html_for_pet(name, pet.return_array, help)
 		x = gets.chomp.to_s
 	when "8"
 		pet.spectate()
 		puts pet.show_stats()
-		#html.html_for_pet(name, pet.return_array, help)
 		x = gets.chomp.to_s
 	when "9"
 		pet.skip_day
 		puts pet.show_stats()
-		#html.html_for_pet(name, pet.return_array, help)
 		x = gets.chomp.to_s
 	when  "help"
 		help()
